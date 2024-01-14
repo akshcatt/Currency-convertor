@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+    padding: 2rem;
+    flex-direction: column;
+    background-color: seagreen;
+    border-radius: 2vh;
+}
+
+form {
+    height: 30vh;
+    width: 30vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    border-radius: 1rem;
+}
+
+.select {
+    margin: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#From,
+#To {
+    height: 3vh;
+}
+
+i {
+    font-size: 3vh;
+}
+
+.msg {
+    color: white;
+    font-size: xx-large;
+    padding: 2vh;
+}
+
+button {
+    padding: 2vh;
+    background-color: aquamarine;
+    border-radius: 1vh;
+    cursor: grab;
+}
